@@ -32,25 +32,9 @@ Acompanhamento de métricas de performance e conexões ativas (DatabaseConnectio
 
 📊 Arquitetura da Solução
 
-+-------------------------------------------------------+
-       |                        AWS Cloud                      |
-       |                                                       |
-       |   +--------------------+     /cafe/dbUrl              |
-       |   |  Parameter Store   |--------------------+         |
-       |   +--------------------+                    |         |
-       |                                             v         |
-       |   +--------------------+         +--------------------+ |
-       |   | Customer-Facing    |-------->| Database Server    | |
-       |   | Web App (Cafe)     |         | EC2 Instance       | |
-       |   +--------------------+         +--------------------+ |
-       |                                             |         |
-       |                                             v         |
-       |                                  +--------------------+ |
-       |                                  | Amazon RDS         | |
-       |                                  | (cafedbinstance)   | |
-       |                                  +--------------------+ |
-       +-------------------------------------------------------+
-
+<p align="center">
+  <img src="arquitetura-aws.png" width="600px" alt="Café Website Database Connectivity Overview">
+</p>
       
        🎯 Resultado Final
        
