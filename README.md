@@ -33,9 +33,8 @@ Acompanhamento de métricas de performance e conexões ativas (DatabaseConnectio
 📊 Arquitetura da Solução
 
 <p align="center">
-  <img src="arquitetura-aws.png" width="700px" alt="Café Website Database Connectivity Overview">
+  <img src="arquitetura-aws.jpg" width="700px" alt="Café Website Database Connectivity Overview">
 </p>
-      
 
 Resultado final
        
