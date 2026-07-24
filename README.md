@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Copilot_20260723_231622.png" width="350px" alt="Notebook com diagrama AWS">
+  <img src="Copilot_20260723_231622.png" width="250px" alt="Notebook com diagrama AWS">
 </p>
 
 
