@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="Copilot_20260723_231622.png" width="250px" alt="Notebook com diagrama AWS">
-</p>
-
+  <img src="Copilot_20260723_231631.png" width="450px" alt="Notebook com diagrama AWS">
 
 ☕ Cloud Database Migration & Architecture: Café Web App & Amazon RDS
 Projeto prático de arquitetura em nuvem e engenharia de dados realizado na AWS, migrando a persistência de uma aplicação web de cafeteria para um banco de dados relacional gerenciado e altamente escalável.
