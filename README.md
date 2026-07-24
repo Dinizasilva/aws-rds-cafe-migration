@@ -36,8 +36,8 @@ Acompanhamento de métricas de performance e conexões ativas (DatabaseConnectio
   <img src="arquitetura-aws.png" width="700px" alt="Café Website Database Connectivity Overview">
 </p>
       
-       
-       🎯 Resultado Final
+
+Resultado final
        
 Sistema 100% Integrado: Aplicação web rodando sem interrupções e comunicando-se perfeitamente com o banco de dados gerenciado.
 
