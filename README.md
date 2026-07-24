@@ -32,9 +32,25 @@ Acompanhamento de métricas de performance e conexões ativas (DatabaseConnectio
 
 📊 Arquitetura da Solução
 
-<p align="center">
-  <img src="COLE_O_LINK_RAW_AQUI" width="700px" alt="Café Website Database Connectivity Overview">
-</p>
+architecture-beta
+    aws-cloud[AWS Cloud]
+
+    group parameter_store_group(aws-cloud) {
+        parameter_store[Systems Manager Parameter Store]
+    }
+
+    group app_group(aws-cloud) {
+        ec2_app[EC2 Web Server (Cafe App)]
+    }
+
+    group db_group(aws-cloud) {
+        ec2_db_host[EC2 Database Host]
+        rds_mysql[Amazon RDS (MySQL)]
+    }
+
+    parameter_store:R -- L:ec2_app "   /cafe/dbUrl   "
+    ec2_app:R -- L:ec2_db_host "   JDBC / 3306   "
+    ec2_db_host:T -- B:rds_mysql "   Replication / Connection   "
 
 Resultado final
        
